@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="609129b4-886b-4f34-926d-d6e6c46a5f51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/netdiskserviceapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/Chunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/FileBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/FileListBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/FolderPropertyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/FriendBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/MergeFileBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/NoticeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/RubbishBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/ShareBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/ShareFileBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/ShareFriendsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/TypeSuffixBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/TypeSuffixOperateBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/bean/UserCapacityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/FilePreviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/FileRubbishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/TypeSuffixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/UserCapacityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/Chunk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/FileBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/FileListBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/FolderPropertyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/FriendBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/MergeFileBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/NoticeBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/PageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/RubbishBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/Share.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/ShareBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/ShareFileBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/ShareFriendsBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/TypeSuffixBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/TypeSuffixOperateBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/bean/UserCapacityBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/demo/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/demo/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/FilePreviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/FileRubbishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/ShareService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/TypeSuffixService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-api/target/classes/com/micro/disk/service/UserCapacityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/netdiskserviceprovider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/DiskServiceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/config/RedisChunkTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/ContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/ContextRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/ContextResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/HandlerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/Pipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/core/PipelineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskAlbumFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskFileDelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskMd5ChunkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskMd5Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskNoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskShareDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskShareFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskShareFriendsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskShareSaveDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskTypeSuffixDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskUserCapacityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dao/DiskUserCapacityHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dialect/IJdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/dialect/JdbcTemplateMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskFileJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskFileRubbishJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskNoticeJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskShareFileJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskShareJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/db/jdbc/DiskTypeSuffixOperateJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ChunkFileSuffixHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ChunkRedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ChunkStoreHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ChunkValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileAddFolderSaveDiskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileAddFolderValitatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileDelGetDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileDelRedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileDelRubbishHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileDelUptateCapacityHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileDelValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditCapacityIsEnoughHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditCreateFolderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditDownloadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditMd5IsExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditSaveDiskFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditSaveDiskMd5ChunkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditSaveDiskMd5Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditUpdateDiskCapacityHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileEditValidateHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRenameIsExistHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRenameSaveDiskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRenameValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishDelRedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishDiskFileDelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverCapacityHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverRedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverSavaDiskFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverSearchHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverUpdateCapacityHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishRecoverValidatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishSearchHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FileRubbishValidatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FiledealContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FiledealImgStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/FiledealStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeCapacityIsEnoughHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeCapacityUpdateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeCreateFolderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeFileIsBreakHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeFileIsExistHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeGetChunkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeGlThumnailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeSaveDiskFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeSaveDiskMd5ChunkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeSaveDiskMd5Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeSolrHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeSpecialDealHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/MergeValidateHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareCancelRedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareCancelStatusHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareCancelValitatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareFriendsFromFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareFriendsSaveFriendsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareFriendsSaveHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareFriendsValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveCapacityEnoughHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveCapacityUpdateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveDiskShareFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveDiskShareHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveEffectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveGetDataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveInsertHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveLogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSaveValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSecretRedisSaveHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/handler/ShareSecretValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/lock/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/lock/LockContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/lock/LockZookeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskAlbumFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskFileDel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskMd5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskMd5Chunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskShare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskShareFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskShareFriends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskShareSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskTypeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskTypeSuffix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskTypeSuffixOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskUserCapacity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskUserCapacityHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/modeltree/DiskFileRubbishTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/modeltree/DiskFileTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/modeltree/DiskShareFileTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ChunkRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileAddFolderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileDelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileEditResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileRenameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileRubbishDelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/FileRubbishRecoverRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/MergeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ShareCancelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ShareFriendsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ShareSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ShareSecretRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/param/ShareSecretResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FilePreviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FileRubbishImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/TypeSuffixServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/UserCapacityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/test/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/utils/CapacityBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/utils/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/utils/SpringContentUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/utils/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/websocket/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/websocket/PushService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/websocket/SessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/websocket/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/websocket/WebSocketListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/xml/TypeSuffixXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/xml/TypeXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/xml/XstreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/resources/type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/main/resources/typedetail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/test/java/com/micro/db/jdbc/SellApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/test/java/com/micro/db/jdbc/dao/DiskFileJdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/src/test/java/com/micro/service/impl/UserCapacityServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/DiskServiceApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/config/RedisChunkTemp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/Bootstrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/ContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/ContextRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/ContextResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/HandlerInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/Pipeline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/core/PipelineImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskAlbumFileDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskFileDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskFileDelDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskMd5ChunkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskMd5Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskNoticeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskShareDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskShareFileDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskShareFriendsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskShareSaveDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskTypeSuffixDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskUserCapacityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dao/DiskUserCapacityHistoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dialect/IJdbcTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/dialect/JdbcTemplateMysql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskFileJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskFileRubbishJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskNoticeJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskShareFileJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskShareJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/db/jdbc/DiskTypeSuffixOperateJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ChunkFileSuffixHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ChunkRedisHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ChunkStoreHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ChunkValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileAddFolderSaveDiskFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileAddFolderValitatorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileDelGetDataHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileDelRedisHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileDelRubbishHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileDelUptateCapacityHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileDelValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditCapacityIsEnoughHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditCreateFolderHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditDownloadHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditMd5IsExist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditSaveDiskFileHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditSaveDiskMd5ChunkHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditSaveDiskMd5Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditUpdateDiskCapacityHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileEditValidateHander.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRenameIsExistHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRenameSaveDiskFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRenameValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishDelRedisHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishDiskFileDelHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverCapacityHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverRedisHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverSavaDiskFileHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverSearchHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverUpdateCapacityHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishRecoverValidatorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishSearchHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FileRubbishValidatorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FiledealContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FiledealImgStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/FiledealStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeCapacityIsEnoughHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeCapacityUpdateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeCreateFolderHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeFileIsBreakHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeFileIsExistHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeGetChunkHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeGlThumnailHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeSaveDiskFileHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeSaveDiskMd5ChunkHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeSaveDiskMd5Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeSolrHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeSpecialDealHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/MergeValidateHander.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareCancelRedisHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareCancelStatusHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareCancelValitatorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareFriendsFromFileHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareFriendsSaveFriendsHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareFriendsSaveHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareFriendsValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveCapacityEnoughHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveCapacityUpdateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveDiskShareFileHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveDiskShareHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveEffectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveGetDataHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveInsertHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveLogHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSaveValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSecretRedisSaveHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/handler/ShareSecretValidateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/lock/Lock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/lock/LockContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/lock/LockZookeeper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/lock/LockZookeeper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskAlbumFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskFileDel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskMd5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskMd5Chunk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskShare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskShareFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskShareFriends.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskShareSave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskTypeComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskTypeSuffix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskTypeSuffixOperate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskUserCapacity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/model/DiskUserCapacityHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/modeltree/DiskFileRubbishTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/modeltree/DiskFileTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/modeltree/DiskShareFileTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ChunkRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileAddFolderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileDelRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileEditRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileEditResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileRenameRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileRubbishDelRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/FileRubbishRecoverRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/MergeRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ShareCancelRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ShareFriendsRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ShareSaveRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ShareSecretRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/param/ShareSecretResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FilePreviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileRubbishImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileRubbishImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileRubbishImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/ShareServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/ShareServiceImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/ShareServiceImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/ShareServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/TypeSuffixServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/service/impl/UserCapacityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/utils/CapacityBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/utils/ImageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/utils/SpringContentUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/utils/ValidateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/websocket/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/websocket/PushService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/websocket/SessionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/websocket/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/websocket/WebSocketListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/xml/TypeSuffixXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/xml/TypeXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/com/micro/xml/XstreamUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/classes/typedetail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/test-classes/com/micro/db/jdbc/SellApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/test-classes/com/micro/db/jdbc/dao/DiskFileJdbcTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-service-provider/target/test-classes/com/micro/service/impl/UserCapacityServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/netdiskuserapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/bean/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/bean/SessionUserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/bean/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/service/SendSmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/service/UserServiceRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/bean/OrderBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/bean/SessionUserBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/bean/UserBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/service/SendSmsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/service/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-api/target/classes/com/micro/disk/user/service/UserServiceRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/netdiskuserprovider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/DiskUserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/dao/DiskOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/dao/DiskUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/enums/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/enums/PayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/enums/ProductStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/model/DiskOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/model/DiskUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/service/impl/SendSmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/service/impl/UserServiceRedisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/sms/SendSms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/test/java/com/micro/SellApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/test/java/com/micro/dao/DiskOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/test/java/com/micro/dao/DiskUserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/test/java/com/micro/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/src/test/java/com/micro/service/impl/UserServiceRedisImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/DiskUserApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/dao/DiskOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/dao/DiskUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/enums/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/enums/OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/enums/PayStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/enums/ProductStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/enums/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/model/DiskOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/model/DiskUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/service/impl/SendSmsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/service/impl/TestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/service/impl/UserServiceRedisImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/sms/SendSms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/classes/com/micro/utils/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/test-classes/com/micro/SellApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/test-classes/com/micro/dao/DiskOrderDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/test-classes/com/micro/dao/DiskUserDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/test-classes/com/micro/service/impl/UserServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-user-provider/target/test-classes/com/micro/service/impl/UserServiceRedisImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/netdiskwebmanage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/src/main/java/com/micro/DiskManageApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/src/main/java/com/micro/controller/TestControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/src/main/java/com/micro/controller/TypeSuffixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/target/classes/com/micro/DiskManageApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/target/classes/com/micro/controller/TestControler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-manage/target/classes/com/micro/controller/TypeSuffixController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/netdiskwebperpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/DiskPerpcApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileCommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileDownloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileEditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileOpenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/RubbishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/ShareCommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/ShareFriendsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/ShareMySelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/TestControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/mvc/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/mvc/LimitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/mvc/UserInfoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/mvc/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/overdatelistener/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/overdatelistener/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/overdatelistener/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/pojo/ChunkPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/pojo/EditBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/redislimite/RedisKeyExpirationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/redislimite/RedisListenerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/xml/MenuBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/xml/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/main/resources/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/test/java/com/micro/SellApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/src/test/java/com/micro/controller/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/DiskPerpcApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileCommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileDownloadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileEditController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileOpenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/RubbishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/ShareCommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/ShareFriendsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/ShareMySelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/controller/TestControler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/mvc/GlobalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/mvc/LimitInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/mvc/UserInfoUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/mvc/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/overdatelistener/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/overdatelistener/RedisMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/overdatelistener/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/pojo/ChunkPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/pojo/EditBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/redislimite/RedisKeyExpirationListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/redislimite/RedisListenerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/xml/MenuBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/com/micro/xml/XmlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/classes/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/test-classes/com/micro/SellApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netdisk-web-perpc/target/test-classes/com/micro/controller/LoginControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/CapacityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/Contanst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/MimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/json/JsonJackUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/json/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/CapacityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/Contanst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/MimeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/RandomUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/ResultUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/ValidateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/json/JsonJackUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-common/target/classes/com/micro/common/json/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/context/StoreContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/utils/BandwidthLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/utils/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/context/StoreContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/service/StoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/service/impl/StoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/utils/BandwidthLimiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/utils/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-filestore/target/classes/com/micro/store/utils/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/src/main/java/com/micro/AsposePreviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/src/main/java/com/micro/PreviewContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/src/main/java/com/micro/PreviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/src/main/java/com/micro/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/src/main/resources/license.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/target/classes/com/micro/AsposePreviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/target/classes/com/micro/PreviewContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/target/classes/com/micro/PreviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/target/classes/com/micro/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-office/target/classes/license.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/PayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/alipay/aliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/config/EnjoyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/config/IJPayConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/config/StartupRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/entity/AliPayBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/entity/PayPalBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/enums/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/enums/PayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/enums/ProductStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/form/OrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/interceptor/AliPayInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/lock/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/lock/LockContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/lock/LockZookeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/overdatelistener/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/overdatelistener/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/overdatelistener/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/utils/AmountUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/java/com/micro/vo/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/pay/alipay.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/pay/alipaydemo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/pay/paypal.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/css/demos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/css/hospital.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/css/keyboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/css/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/error/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/icon_nav_article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/icon_nav_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/icon_nav_cell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/icon_nav_msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/bg-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/ico-arrow-right-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/interactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/sprites/ico-heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/sprites/ico-subbranding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/sprites/ico-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/sprites/ico-wxzf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/suc-gaps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/suc-ico-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/img/wenli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/keybord-return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/keybord-stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/images/wxpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/js/iscroll-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/js/jquery.qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/js/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/static/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/hospital/01_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/hospital/02_select_time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/hospital/03_register_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/hospital/04_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/jd_customer_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/jd_pc_h5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/pay_input_money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/pay_keyboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/pay_select_money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/qrcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/traffic_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/utf8_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/wxh5pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/wxpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/src/main/resources/view/wxsubpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/META-INF/utils-pay.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/PayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/alipay/aliPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/config/EnjoyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/config/IJPayConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/config/StartupRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/entity/AliPayBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/entity/PayPalBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/enums/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/enums/OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/enums/PayStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/enums/ProductStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/enums/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/form/OrderForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/interceptor/AliPayInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/lock/Lock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/lock/LockContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/lock/LockZookeeper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/lock/LockZookeeper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/overdatelistener/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/overdatelistener/RedisMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/overdatelistener/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/utils/AmountUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/utils/StringUtils$RandomType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/com/micro/vo/AjaxResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/pay/alipay.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/pay/alipaydemo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/pay/paypal.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/css/demos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/css/hospital.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/css/keyboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/css/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/error/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/icon_nav_article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/icon_nav_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/icon_nav_cell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/icon_nav_msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/bg-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/ico-arrow-right-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/interactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/sprites/ico-heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/sprites/ico-subbranding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/sprites/ico-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/sprites/ico-wxzf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/suc-gaps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/suc-ico-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/img/wenli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/keybord-return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/keybord-stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/images/wxpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/js/iscroll-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/js/jquery.qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/js/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/static/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/hospital/01_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/hospital/02_select_time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/hospital/03_register_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/hospital/04_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/jd_customer_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/jd_pc_h5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/pay_input_money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/pay_keyboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/pay_select_money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/qrcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/traffic_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/utf8_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/wxh5pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/wxpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-pay/target/classes/view/wxsubpay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新建 WinRAR 压缩文件.rar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/netdisk-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/netdisk-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/netdisk-web-manage/target/" />
+    <ignored path="$PROJECT_DIR$/utils-office/target/" />
+    <ignored path="$PROJECT_DIR$/utils-common/target/" />
+    <ignored path="$PROJECT_DIR$/netdisk-user-provider/target/" />
+    <ignored path="$PROJECT_DIR$/utils-pay/target/" />
+    <ignored path="$PROJECT_DIR$/netdisk-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/netdisk-web-perpc/target/" />
+    <ignored path="$PROJECT_DIR$/utils-filestore/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="170" column="73" selection-start-line="170" selection-start-column="73" selection-end-line="170" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileEditController.java" />
+        <option value="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/pojo/EditBean.java" />
+        <option value="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/CapacityUtils.java" />
+        <option value="$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/DateUtils.java" />
+        <option value="$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Consumer.java" />
+        <option value="$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Producer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="30" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netdisk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netdisk" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DiskServiceApp">
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.disk.demo.Producer" />
+      <module name="netdisk-service-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.disk.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiskServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="netdisk-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.DiskServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DiskServiceApp" />
+        <item itemvalue="Application.Producer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="609129b4-886b-4f34-926d-d6e6c46a5f51" name="Default Changelist" comment="" />
+      <created>1605190982500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605190982500</updated>
+      <workItem from="1605190983897" duration="3277000" />
+      <workItem from="1605254303145" duration="1667000" />
+      <workItem from="1605362334869" duration="1151000" />
+      <workItem from="1605523297713" duration="392000" />
+      <workItem from="1605627153808" duration="594000" />
+      <workItem from="1605887123098" duration="1756000" />
+      <workItem from="1605888940757" duration="4160000" />
+      <workItem from="1606032256280" duration="1267000" />
+      <workItem from="1606117454368" duration="596000" />
+      <workItem from="1606137367927" duration="342000" />
+      <workItem from="1606464540423" duration="37000" />
+      <workItem from="1606464598119" duration="1439000" />
+      <workItem from="1606486152753" duration="711000" />
+      <workItem from="1606812545881" duration="2538000" />
+      <workItem from="1606823095066" duration="14000" />
+      <workItem from="1606823152435" duration="560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20501000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24396783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42432815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33002833" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Sequence" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Codota" order="10" weight="0.32935917" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/model/DiskFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/jdk1.8.0_144/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/pojo/EditBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileEditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/ResultUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils-filestore/src/main/java/com/micro/store/utils/SpringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-manage/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-user-provider/src/main/java/com/micro/service/impl/UserServiceRedisImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-user-api/src/main/java/com/micro/disk/user/service/UserServiceRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3173">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils-common/src/main/java/com/micro/common/CapacityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/DiskServiceApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-web-perpc/src/main/java/com/micro/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-provider/src/main/java/com/micro/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="170" column="73" selection-start-line="170" selection-start-column="73" selection-end-line="170" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netdisk-service-api/src/main/java/com/micro/disk/demo/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>netdisk</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
