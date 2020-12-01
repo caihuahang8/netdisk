@@ -11,6 +11,7 @@ public class Producer<T>{
     }
     public void producer(){
         try{
+            System.out.println(11);
             while (arrayList.isEmpty()){
                 object.wait();
             }
